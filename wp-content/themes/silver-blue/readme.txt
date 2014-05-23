@@ -1,0 +1,1 @@
+Header menu limitations:??Theme allows a maximum menu length of 960px, so the number of menu items would have to adjusted to fit within this length. The menu also has drop down features hence menus can be nested.??Support for the theme can be found at:??wwww.alappin.com/wordpress-themes

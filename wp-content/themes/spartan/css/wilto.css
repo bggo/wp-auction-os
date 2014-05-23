@@ -1,0 +1,129 @@
+			.slider { list-style: none; padding:0 0 3% 0; }
+			.carousel-tabs { clear: both; text-align:center; width:80%; margin:0 auto !important;}
+			.carousel-active-tab { color: red; }	
+			.carousel-disabled,
+			.mr-rotato-disabled { color: #aaa; }
+
+			.slidewrap2 .carousel-tabs {
+				padding: 0;
+				margin: 1em 0;
+				clear: both;
+			}
+			.slidewrap2 .carousel-tabs li {
+			    display: inline-block; 
+			    padding: 0 2px;
+			}
+			.slidewrap2 .carousel-tabs a {
+			    background: #000;
+			    display: inline-block;
+			    height: 10px;
+			    text-indent: -9999px;
+			    width: 10px;
+			    border-radius: 5px;
+			}
+			.ie .slidewrap2 .carousel-tabs li,
+			.ie .slidewrap2 .carousel-tabs a { 
+				display: block;
+				float: left;
+			}
+			.slidewrap2 .carousel-tabs .carousel-active-tab a {
+				background: #900;
+			}
+			
+			.events {
+				font: normal 11px/1.4 arial, helvetica, sans-serif;
+			}
+
+			
+			.wrimg {
+				float:left;
+				width:100%;
+			}
+			.wrimg img{
+				max-width:100%;
+				height:auto;
+			}			
+			.wrtext {
+				float:left;
+				width:100%;
+			}	
+			.wrsubtext {
+				width:100%;
+				padding:10px 0;
+				display:none;
+				margin:0 0 15px 0;
+			}
+			.wrsubtextmore {
+				width:100%;
+				padding:10px 0;
+				display:none;
+			}			
+			.wrsubtexth2 {
+				width:100%;
+				padding:10px 0;
+			}	
+			.wrsubtexth2 h2{
+				width:100%;
+				text-align:center;
+				font-size:14px;
+			}					
+			.wrtext p{
+			}	
+			.wrtext p a{
+				padding:10px 40px;
+				background:#7e7e7e;
+				-webkit-border-radius: 5px;
+				-moz-border-radius: 5px;
+				border-radius: 5px;
+				border-bottom:solid #2e2e2e 3px;
+			}									
+			.slidecontrols {
+			list-style: none;
+			}
+			.slidecontrols li{
+			z-index:9;
+			}
+			.carousel-next {
+				position:absolute;				
+				width:43px;
+				height:94px;
+				display:block;
+				top:35%;
+				left:0;				
+				text-indent:-9999px;
+				background:url(images/anything-arrows-next.png) no-repeat;
+			}			
+			.carousel-prev {
+				position:absolute;
+				width:43px;
+				height:94px;
+				display:block;	
+				top:35%;			
+				right:0;
+				text-indent:-9999px;
+				background:url(images/anything-arrows-prev.png) no-repeat;
+			}
+			.slidecont {
+				width:100%;
+				margin:0;
+			}
+			.wrvid {
+				width:100%;
+			}
+			.wrvid h2{
+				width:100%;
+				text-align:center;
+				font-size:14px;		
+				padding:15px 0;		
+			}
+			.wrimgbackup {
+				width:100%;
+			}
+			.wrimgbackup img{
+				max-width:100%;
+			}			
+			.wrimgbackup h2{
+				width:100%;
+				text-align:center;
+				padding:15px 0;		
+			}			

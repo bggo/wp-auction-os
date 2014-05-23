@@ -1,0 +1,16 @@
+#featured_section_wilto {
+	background:#019ce4 url(images/featured_slider_overlay.png);	
+}
+.wrsubtexth2 h2 a {
+    color: #fff;
+}
+
+.wrtext p {
+    color: #fff;
+}
+.wrtext p a {
+    background: none repeat scroll 0 0 #403e3e;
+    border-bottom: 3px solid #333333;
+    border-radius: 5px 5px 5px 5px;
+    padding: 10px 40px;
+}

@@ -1,0 +1,218 @@
+/*
+Theme Name:     2013 Black and white
+Theme URI:      http://www.whiletrue.it/2013-black-and-white-wordpress-theme/
+Description:    Black and white color scheme for Twenty Thirteen
+Author:         Whiletrue
+Author URI:     http://www.whiletrue.it
+Template:       twentythirteen
+Version:        1.0
+License:        GNU General Public License v2 or later
+License URI:    http://www.gnu.org/licenses/gpl-2.0.html
+Tags:           black, white, light, one-column, two-columns, right-sidebar, flexible-width, custom-header, custom-menu, editor-style, featured-images, microformats, post-formats, rtl-language-support, sticky-post, translation-ready
+Text Domain:    twentythirteen
+
+2013 Black and White WordPress theme, Copyright (C) 2013 WhileTrue.
+2013 Black and White WordPress theme is licensed under the GPL.
+*/
+
+
+/**
+ * New header 
+ */
+body .site-header {
+	background-size: 1600px auto;
+	color: #222;
+}
+
+/**
+ * Standard
+ */
+body {
+	color: #222;
+}
+a:visited {
+	color: #555;
+}
+.comment-author .fn, .comment-author .url, .comment-reply-link, .comment-reply-login {
+	color: #444;
+}
+a:active,
+a:hover {
+	color: #777;
+}
+a,
+.entry-meta,
+.entry-meta a,
+.entry-meta a:hover,
+.entry-content a,
+.entry-summary a {
+	color: #444;
+}
+.entry-title a, .entry-title a:hover, .site-header .home-link {
+	color: #222;
+}
+.form-allowed-tags, .form-allowed-tags code {
+	color: #333;
+}
+.comment-meta a {
+	color: #999;
+}
+input, textarea {
+	border: 2px solid #999;
+}
+.comment-respond {
+	background-color: #eee;
+}
+input[type="submit"], input[type="button"], input[type="reset"] {
+	border-color: #bbb;
+	background: #ccc;
+}
+input[type="submit"]:hover, input[type="button"]:hover, input[type="reset"]:hover,
+input[type="submit"]:active, input[type="button"]:active, input[type="reset"]:active {
+	border-color: #aaa;
+	background: #bbb;
+}
+.nav-menu .current_page_item > a, .nav-menu .current_page_ancestor > a, .nav-menu .current-menu-item > a, .nav-menu .current-menu-ancestor > a {
+	color: #444;
+}
+.archive-header, .page-header {
+	background: #ccc;
+}
+
+/**
+ * Menu, Links, Asides, Chat, Paging, Footer, 404
+ */
+.navbar, .format-link, .format-aside, .paging-navigation, .site-footer, .post-navigation, .error404 .page-wrapper {
+	background-color: #eee;
+}
+.nav-menu .sub-menu,
+.nav-menu .children {
+	border-color: #eee;
+}
+.error404 .page-title:before {
+	color: #888;
+} 
+.format-aside .entry-meta,
+.format-aside .entry-meta a,
+.format-aside .entry-title a,
+.format-aside .entry-content a,
+.format-aside .entry-summary a,
+.format-link .entry-meta,
+.format-link .entry-meta a,
+.format-link .entry-title a,
+.format-link .entry-content a,
+.format-link .entry-summary a {
+	color: #444;
+}
+.nav-menu li:hover > a, .nav-menu li a:hover, .nav-menu .sub-menu, .nav-menu .children {
+	background-color: #111;
+}
+ul.nav-menu ul a:hover,
+.nav-menu ul ul a:hover,
+.toggled-on .nav-menu li a:hover, .toggled-on .nav-menu ul a:hover {
+	background-color: #333;
+}
+.blog .format-link:first-of-type, .single .format-link:first-of-type, .format-link + .format-aside, .format-link + .format-link, .format-aside + .format-aside,
+.blog .format-aside:first-of-type, .single .format-aside:first-of-type, .format-aside + .format-aside, .format-aside + .format-link, .format-link + .format-aside {
+	box-shadow: inset 0px 2px 2px rgba(0,0,0, 0.1);
+}
+.site-footer a, .navigation a {
+	color: #555;
+}
+.site-footer a:hover, .navigation a:hover {
+	color: #666;
+}
+.paging-navigation .meta-nav {
+	background-color: #555;
+}
+.paging-navigation a:hover .meta-nav {
+	background-color: #666;
+}
+
+/**
+ * Galleries
+ */
+.format-gallery {
+	background-color: #ccc;
+}
+.format-gallery .entry-meta,
+.format-gallery .entry-meta a,
+.format-gallery .entry-content a,
+.format-gallery .entry-summary a {
+	color: #111;
+}
+
+/**
+ * Quotes
+ */
+.format-quote, .site-footer .sidebar-container {
+	background-color: #111;
+	color: #fff;
+}
+.format-quote .entry-meta,
+.format-quote .entry-meta a,
+.format-quote .entry-content a,
+.format-quote .entry-summary a {
+	color: #aaa;
+}
+
+/**
+ * Status
+ */
+.format-status, .paging-navigation .meta-nav {
+	background-color: #555;
+	color: #fff;
+}
+
+/**
+ * Video, Audio
+ */
+.format-video, .format-audio {
+	background-color: #888;
+	color: #fff;
+}
+.format-video .entry-meta,
+.format-video .entry-meta a,
+.format-video .entry-content a,
+.format-video .entry-summary a,
+.format-audio .entry-meta,
+.format-audio .entry-meta a,
+.format-audio .entry-content a,
+.format-audio .entry-summary a {
+	color: #fff;
+}
+.format-video .entry-title a,
+.format-audio .entry-title a,
+.format-video .entry-title a:hover,
+.format-audio .entry-title a:hover {
+	color: #222;
+}
+.hentry .mejs-mediaelement, .hentry .mejs-container .mejs-controls {
+	background: #222;
+}
+
+/**
+ * Chat
+ */
+.format-chat {
+	background-color: #92bcd5;
+}
+.format-chat .entry-meta,
+.format-chat .entry-meta a,
+.format-chat .entry-content a,
+.format-chat .entry-summary a {
+	color: #444;
+}
+
+/**
+ * Widgets
+ */
+.widget {
+	background: #eee;
+}
+.widget a, .site-footer .widget a {
+	color: #444;
+}
+.site-footer .sidebar-container {
+	background: #111;
+}

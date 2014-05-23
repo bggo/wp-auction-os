@@ -1,0 +1,52 @@
+#menu .ddsmoothmenu {
+	background:#2688bc;
+}
+#menu .ddsmoothmenu li > ul li > ul {
+	background-color:#2688bc;
+}
+#menu .ddsmoothmenu li li {
+	background: #2688bc;
+}
+#menu .ddsmoothmenu li li a:link, #menu .ddsmoothmenu li li a:visited {
+	color: #ffffff;
+	background-color:#2688bc;
+}
+#menu .ddsmoothmenu li li a.selected, #menu .ddsmoothmenu li li a:hover {
+	color: #000;
+	background-color:#fff;
+}
+.footer {
+	background-color:#2688bc;
+	color:#b4d4e5;
+}
+.footer h1, .footer h2, .footer h3, .footer h4, .footer h5, .footer h6 {
+	color:#ffffff;
+	background:url(images/footer-sep-blue.png) bottom repeat-x;
+}
+.footer ul li a {
+	color:#b4d4e5;
+}
+.footer a:hover {
+	color:#b4d4e5;
+}
+.footer-strip {
+	background:url(images/footer-line-blue.png) repeat-x;
+}
+.bottom-footer {
+	background-color:#0c5a84;
+	color:#9dbfd1;
+}
+.bottom-footer .footer_bottom_inner span.copyright a{
+color:#9dbfd1;
+}
+.footer .searchform input[type="text"] {
+	background:url(images/search-bg-blue.png) no-repeat;
+	color:#b4d4e5;
+}
+.footer .searchform input[type="submit"] {
+	background:url(images/search-footer-glass.png) no-repeat;
+}
+.footer .searchform input[type="text"] {
+	background:url(images/search-bg-blue.png) no-repeat;
+	color:#b4d4e5;
+}

@@ -1,0 +1,704 @@
+/**
+ *
+ * Silverclean WordPress Theme by Iceable Themes | http://www.iceablethemes.com
+ *
+ * Copyright 2013 Mathieu Sarrasin - Iceable Media
+ *
+ * IceFit Main CSS
+ *
+ */
+
+/* #Reset & Basics (E. Meyers)
+================================================== */
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: top;
+}
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+	display: block;
+}
+
+body {
+	line-height: 1;
+}
+
+ol,
+ul {
+	list-style: none;
+}
+
+blockquote,
+q {
+	quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+	content: '';
+	content: none;
+}
+
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+	margin-bottom: 20px;
+}
+
+/* #Lists
+================================================== */
+ul,
+ol {
+	margin-bottom: 20px;
+}
+
+ul {
+	list-style: none outside;
+}
+
+ol {
+	list-style: decimal;
+}
+
+ul.square {
+	list-style: square outside;
+}
+
+ul.circle {
+	list-style: circle outside;
+}
+
+ul.disc	 {
+	list-style: disc outside;
+}
+
+ul ul,
+ol ul {
+	margin: 4px 0 5px 15px;
+}
+
+ul ol,
+ol ol {
+	margin: 4px 0 5px 30px;
+}
+
+ul ul li,
+ul ol li,
+ol ol li,
+ol ul li {
+	margin-bottom: 6px;
+}
+
+li {
+	line-height: 18px;
+	margin-bottom: 12px;
+}
+
+ul.large li {
+	line-height: 21px;
+}
+
+li p {
+	line-height: 21px;
+}
+
+/* #Images
+================================================== */
+
+img.scale-with-grid {
+	max-width: 100%;
+	height: auto;
+}
+
+/* #Buttons
+================================================== */
+
+/* Fix for odd Mozilla border & padding issues */
+button::-moz-focus-inner,
+input::-moz-focus-inner {
+	border: 0;
+	padding: 0;
+}
+
+/* Clearfixing tabs for beautiful stacking */
+ul.tabs:before,
+ul.tabs:after {
+	content: '\0020';
+	display: block;
+	overflow: hidden;
+	visibility: hidden;
+	width: 0;
+	height: 0;
+}
+
+ul.tabs:after {
+	clear: both;
+}
+
+ul.tabs {
+	zoom: 1;
+}
+
+/* #Forms
+================================================== */
+
+form {
+	margin-bottom: 20px;
+}
+
+fieldset {
+	margin-bottom: 20px;
+}
+
+input[type="text"],
+input[type="password"],
+input[type="email"],
+textarea,
+select {
+	border: 1px solid #ccc;
+	padding: 6px 4px;
+	outline: none;
+	-moz-border-radius: 2px;
+	-webkit-border-radius: 2px;
+	border-radius: 2px;
+	font: 13px 'Open Sans', "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
+	color: #777;
+	margin: 0;
+	width: 190px;
+	max-width: 100%;
+	display: block;
+	margin-bottom: 20px;
+	background: #fff;
+}
+
+select {
+	padding: 0;
+}
+
+input[type="text"]:focus,
+input[type="password"]:focus,
+input[type="email"]:focus,
+textarea:focus {
+	border: 1px solid #aaa;
+	color: #444;
+	-moz-box-shadow: 0 0 3px rgba(0,0,0,.2);
+	-webkit-box-shadow: 0 0 3px rgba(0,0,0,.2);
+	box-shadow:  0 0 3px rgba(0,0,0,.2);
+}
+
+textarea {
+	min-height: 60px;
+}
+
+label,
+legend {
+	display: block;
+	font-weight: bold;
+	font-size: 13px;
+	 }
+
+select {
+	width: 220px;
+}
+
+input[type="checkbox"] {
+	display: inline;
+}
+
+label span,
+legend span {
+	font-weight: normal;
+	font-size: 13px;
+	color: #444;
+}
+
+/* #Misc
+================================================== */
+.remove-bottom {
+	margin-bottom: 0 !important;
+}
+
+.half-bottom {
+	margin-bottom: 10px !important;
+}
+
+.add-bottom {
+	margin-bottom: 20px !important;
+}
+
+sub {
+	font-size: xx-small;
+	vertical-align: sub;
+}
+
+sup {
+	font-size: xx-small;
+	vertical-align: super;
+	line-height: 100%;
+}
+
+code,
+kbd,
+var {
+	font-family: 'Courier new', Courier, Monospace;
+	vertical-align: baseline;
+}
+
+del,
+strike {
+	text-decoration: line-through;
+}
+
+ins {
+	text-decoration: underline;
+}
+
+big {
+    font-weight: bold;
+}
+
+acronym,
+abbr {
+    border-bottom: .1em dotted;
+    cursor: help;
+}
+
+/* #Responsive Menu
+================================================== */
+
+#navbar select {
+	display: none;
+	margin: auto;
+}
+
+@media only screen and (max-width: 767px) {
+	#navbar select {
+		display: block;
+		margin: 20px auto;
+		width: 90%;
+	}
+	#navbar div	div {
+		display: none;
+	}
+}
+
+/* #Base Grid
+================================================== */
+
+#main-wrap {
+	width: 1000px;
+	margin: 0 auto;
+}
+
+.container {
+	position: relative;
+	width: 962px;
+	margin: 0 auto;
+	padding: 0;
+	clear: both;
+}
+
+#page-container {
+	width: 960px;
+	margin: 0px;
+	margin-bottom: 20px;
+}
+
+#page-container,
+#footer .container ul {
+	font-size: 1px;
+	letter-spacing: -1px;
+	word-spacing: -1px;
+}
+
+#page-container.with-sidebar.right,
+#sidebar-container.right {
+	float: right;
+}
+
+#page-container.with-sidebar.left,
+#sidebar-container.left {
+	float: left;
+}
+
+#page-container > *,
+#footer .container > ul > li {
+	margin-left: 20px !important;
+	margin-right: 20px !important;
+	margin-bottom: 20px;
+}
+
+#sidebar-container.left {
+	margin-left: 0px !important;
+	margin-right: 10px !important;
+}
+
+#sidebar-container.right {
+	margin-left: 10px !important;
+	margin-right: 0px !important;
+}
+
+#page-container div h1,
+#page-container div h2,
+#page-container div h3,
+#page-container div h4,
+#page-container div h5,
+#page-container div h6,
+#page-container .page-title {
+	margin-top: 0px;
+}
+
+.full-width,
+.one-half,
+.one-third,
+.two-thirds,
+.one-fourth,
+.three-fourths {
+	display: inline-block;
+	vertical-align: top;
+	float: none;
+}
+
+/* No sidebar: Container= 960 */
+#page-container > .full-width    { width: 920px; }
+#page-container > .one-half	     { width: 440px; }
+#page-container > .one-third     { width: 280px; }
+#page-container > .two-thirds    { width: 600px; }
+#page-container > .one-fourth,
+#footer div ul > .one-fourth     { width: 200px; }
+#page-container > .three-fourths { width: 680px; }
+
+/* With Sidebar: Container= 720 */
+#page-container.with-sidebar { width: 738px; }
+
+#page-container.with-sidebar > .full-width    { width: 698px; }
+#page-container.with-sidebar > .one-half      { width: 329px; }
+#page-container.with-sidebar > .one-third     { width: 205px; }
+#page-container.with-sidebar > .two-thirds    { width: 453px; }
+#page-container.with-sidebar > .one-fourth    { width: 144px; }
+#page-container.with-sidebar > .three-fourths { width: 514px; }
+
+#sidebar-container { width: 200px; }
+
+/* #Tablet (Portrait)
+================================================== */
+/* Note: Design for a width of 768px */
+
+@media only screen and (min-width: 768px) and (max-width: 959px) {
+	
+	#main-wrap {
+		width: 100%;
+		border: none;
+	}
+
+	#page-container > div,
+	#page-container > p,
+	#page-container > a,
+	#page-container > span,
+	#page-container > img,
+	#page-container > h1,
+	#page-container > h2,
+	#page-container > h3,
+	#page-container > h4,
+	#page-container > h5,
+	#page-container > h6,
+	#footer .container > ul > li {
+		margin-left: 15px !important;
+		margin-right: 15px !important;
+		margin-bottom: 20px;
+	}
+
+	#sidebar-container {
+		margin-left: 0px !important;
+		margin-right: 0px !important;
+	}
+
+	.container      { width: 768px; }
+	#page-container { width: 766px; }
+
+	/* No sidebar: Container= 766 */
+	#page-container > .full-width    { width: 736px; }
+	#page-container > .one-half      { width: 353px; }
+	#page-container > .one-third     { width: 225px; }
+	#page-container > .two-thirds    { width: 480px; }
+	#page-container > .one-fourth,
+	#footer div ul > .one-fourth     { width: 161px; }
+	#page-container > .three-fourths { width: 544px; }
+	
+	/* With Sidebar: Container= 576 */
+	#page-container.with-sidebar { width: 576px; }
+	
+	#page-container.with-sidebar > .full-width    { width: 546px; }
+	#page-container.with-sidebar > .one-half      { width: 258px; }
+	#page-container.with-sidebar > .one-third     { width: 162px; }
+	#page-container.with-sidebar > .two-thirds    { width: 354px; }
+	#page-container.with-sidebar > .one-fourth    { width: 114px; }
+	#page-container.with-sidebar > .three-fourths { width: 402px; }
+	#sidebar-container { width: 172px; }
+}
+
+/* #Mobile (Portrait)
+================================================== */
+/* Note: Design for a width of 320px */
+
+@media only screen and (max-width: 767px) {
+
+	#main-wrap {
+		width: 100%;
+		border: none;
+	}
+
+	#page-container > div,
+	#page-container > p,
+	#page-container > a,
+	#page-container > span,
+	#page-container > img,
+	#page-container > h1,
+	#page-container > h2,
+	#page-container > h3,
+	#page-container > h4,
+	#page-container > h5,
+	#page-container > h6,
+	#footer .container > ul > li {
+		margin-left: 10px !important;
+		margin-right: 10px !important;
+		margin-bottom: 20px;
+	}
+
+	#sidebar-container {
+		margin-left: 0px !important;
+		margin-right: 0px !important;
+	}
+
+	.container      { width: 300px; }
+	#page-container { width: 298px; }
+
+	/* No sidebar: Container= 300 */
+	#page-container > .full-width,
+	#page-container > .one-half,
+	#page-container > .one-third,
+	#page-container > .two-thirds,
+	#page-container > .one-fourth,
+	#footer div ul > .one-fourth,
+	#page-container > .three-fourths { width: 280px; }
+
+	/* With Sidebar: Container= 300 */
+	#page-container.with-sidebar { width: 298px; }
+
+	#sidebar-container {
+		width: 300px;
+		margin: 0px 0px 20px 0px !important;
+	}
+
+	#sidebar { width: 300px; }
+
+	#page-container.with-sidebar > .full-width,
+	#page-container.with-sidebar > .one-half,
+	#page-container.with-sidebar > .one-third,
+	#page-container.with-sidebar > .two-thirds,
+	#page-container.with-sidebar > .one-fourth,
+	#page-container.with-sidebar > .three-fourths { width: 280px; }
+
+}
+
+/* #Mobile (Landscape)
+================================================== */
+/* Note: Design for a width of 480px */
+
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+
+	#page-container > div,
+	#page-container > p,
+	#page-container > a,
+	#page-container > span,
+	#page-container > img,
+	#page-container > h1,
+	#page-container > h2,
+	#page-container > h3,
+	#page-container > h4,
+	#page-container > h5,
+	#page-container > h6,
+	#footer .container > ul > li {
+		margin-left: 10px !important;
+		margin-right: 10px !important;
+		margin-bottom: 20px;
+	}
+
+	#sidebar-container {
+		margin-left: 0px !important;
+		margin-right: 0px !important;
+	}
+
+	.container      { width: 420px; }
+	#page-container { width: 418px; }
+
+	/* No sidebar: Container= 420 */
+	#page-container > .full-width,
+	#page-container > .one-half,
+	#page-container > .one-third,
+	#page-container > .two-thirds,
+	#page-container > .one-fourth,
+	#footer div ul > .one-fourth,
+	#page-container > .three-fourths { width: 400px; }
+
+	/* With Sidebar: Container= 420 */
+	#page-container.with-sidebar { width: 418px; }
+
+	#sidebar-container {
+		width: 420px;
+		margin: 0px 0px 20px 0px !important;
+	}
+
+	#sidebar { width: 420px; }
+
+	#page-container.with-sidebar > .full-width,
+	#page-container.with-sidebar > .one-half,
+	#page-container.with-sidebar > .one-third,
+	#page-container.with-sidebar > .two-thirds,
+	#page-container.with-sidebar > .one-fourth,
+	#page-container.with-sidebar > .three-fourths { width: 400px; }
+
+}
+
+/* #Clearing
+================================================== */
+
+/* Self Clearing Goodness */
+.container:after {
+	content: "\0020";
+	display: block;
+	height: 0;
+	clear: both;
+	visibility: hidden;
+}
+
+/* Use clearfix class on parent to clear nested columns,
+or wrap each row of columns in a <div class="row"> */
+.clearfix:before,
+.clearfix:after,
+.row:before,
+.row:after {
+	content: '\0020';
+	display: block;
+	overflow: hidden;
+	visibility: hidden;
+	width: 0;
+	height: 0;
+}
+
+.row:after,
+.clearfix:after {
+	clear: both;
+}
+
+.row,
+.clearfix {
+	zoom: 1;
+}
+
+/* You can also use a <br class="clear" /> to clear columns */
+.clear {
+	clear: both;
+	display: block;
+	overflow: hidden;
+	visibility: hidden;
+	width: 0;
+	height: 0;
+}
+

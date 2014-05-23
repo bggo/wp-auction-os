@@ -1,0 +1,56 @@
+== Changelog ==
+
+= Theme Name: Squirrel Theme Pro=
+
+= Version: 1.6.1 =
+* Code optimized.
+* Upload button style issue fixed in theme option.
+* Footer description changed.
+
+= Version: 1.6 =
+
+* wp_get_theme deprecated issue appearing is now fixed.
+* package@wordpres removed from all files.
+* Code optimized.
+* Localization issues fixed.
+
+= Version: 1.5 =
+
+* Top Navigation Dropdown Fixed
+
+= Version: 1.4 =
+
+* All scripts enqueued.
+* content_width hooked in after_setup_theme.
+
+= Version: 1.3 =
+
+* TEMPLATEPATH AND STYLESHEETPATH replaced with get_template_directory().
+* wp_head() placed immediately before </head>.
+* Removed unused style enqueue.
+* Added wp_link_pages() for paginated post.
+* All functions are prefixed by theme slug.
+* Many Trackbacks post bug fixed.
+* Enabled page comments.
+* Pipe test bug fixed.
+* Nonce checking fixed.
+
+= Version: 1.1 =
+* Removed copyright clam.
+* Add filter to wp_title.
+* Replaced get_template_directory() function instead of TEMPLATEPATH AND STYLESHEETPATH.
+* wp_head() placed immediately  before head tag.
+* Input fields have placed with escape function.
+* Scripts are enqueued with core bundled scripts.
+* Enqueue hook replaced with wp_enqueue_scripts.
+* Save options is created with single array options.
+* selected and checked are replaced with checked(), selected() functions.
+* Function_exists() has been removed.
+* All text strings have been made translatable. 
+* Some functions have placed in proper hook.
+* All functions are prefixed with theme slug.
+
+= Version: 1.0 =
+
+* Squirrel Theme is created on 1/01/2012.
+

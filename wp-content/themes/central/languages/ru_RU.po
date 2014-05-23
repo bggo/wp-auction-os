@@ -1,0 +1,498 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: central\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2013-10-07 21:49+0200\n"
+"PO-Revision-Date: \n"
+"Last-Translator: BestWebSoft <bwsuakad@gmail.com>\n"
+"Language-Team: \n"
+"Language: ru_RU\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-KeywordsList: __;_e;_c;__ngettext:1,2;_n:1,2;esc_attr_e;_x\n"
+"X-Poedit-Basepath: ..\n"
+"Plural-Forms: nplurals=4; plural=(n==1) ? 0 : (n%10==1 && n%100!=11) ? 3 : "
+"((n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20)) ? 1 : 2);\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Generator: Poedit 1.5.5\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: 404.php:9
+msgid "Error 404 - Page Not Found"
+msgstr "Ошибка 404 - Страница не найдена"
+
+#: 404.php:12
+msgid "Bad link: "
+msgstr "Несуществующая ссылка: "
+
+#: 404.php:16
+msgid "Sorry, but page you requested has not been found."
+msgstr "Извините, однако запрашиваемая Вами страница не найдена."
+
+#: 404.php:19
+msgid "You can click back, visit our "
+msgstr "Вы можете перейти по ссылке назад, посетить нашу "
+
+#: 404.php:20
+msgid "home page"
+msgstr "домашнюю страницу"
+
+#: 404.php:20
+msgid ", or use search form:"
+msgstr ", или воспользоваться формой поиска:"
+
+#: archive.php:12
+#, php-format
+msgid "Daily Archives: %s"
+msgstr "Архив за день: %s"
+
+#: archive.php:14
+#, php-format
+msgid "Monthly Archives: %s"
+msgstr "Архив за месяц: %s"
+
+#: archive.php:14
+msgid "F Y"
+msgstr "F Y"
+
+#: archive.php:16
+#, php-format
+msgid "Yearly Archives: %s"
+msgstr "Архив за год: %s"
+
+#: archive.php:16
+msgid "Y"
+msgstr "Y"
+
+#: archive.php:18
+msgid "Blog Archives"
+msgstr "Архив"
+
+#: archive.php:42 category.php:39 index.php:25 tag.php:32
+msgid "Leave a reply"
+msgstr "Оставить комментраий"
+
+#: archive.php:42 category.php:39 index.php:25 tag.php:32
+msgid "1 Reply"
+msgstr "1 Комментарий"
+
+#: archive.php:42 category.php:39 index.php:25 tag.php:32
+msgid "% Replies"
+msgstr "Комментарии (%)"
+
+#: archive.php:45 category.php:43 image.php:17 index.php:30 page.php:24
+#: single.php:27 tag.php:36
+msgid "Posted on "
+msgstr "Опубликовано "
+
+#: archive.php:45 author.php:34 category.php:43 image.php:17 index.php:30
+#: single.php:27 tag.php:36
+msgid " in "
+msgstr " в "
+
+#: archive.php:51 category.php:48 functions.php:192 index.php:34 tag.php:42
+msgid "Continue reading <span class=\"meta-nav\">&rarr;</span>"
+msgstr "Читать далее <span class=\"meta-nav\">&rarr;</span>"
+
+#: archive.php:53 category.php:50 image.php:58 index.php:36 page.php:30
+#: single.php:32 tag.php:44
+msgid "Pages:"
+msgstr "Страницы: "
+
+#: archive.php:55 category.php:52 index.php:38 single.php:34 tag.php:46
+msgid "Edit post"
+msgstr "Редактировать статью"
+
+#: archive.php:62 category.php:58 image.php:63 index.php:44 page.php:39
+#: single.php:40 tag.php:52
+msgid "Top"
+msgstr "Наверх"
+
+#: archive.php:73 tag.php:63
+msgid "Nothing found in this archive"
+msgstr "В данном архиве ничего не найдено"
+
+#: author.php:12
+msgid "About: "
+msgstr "Об авторе: "
+
+#: author.php:21
+msgid "Website"
+msgstr "Сайт"
+
+#: author.php:25
+msgid "Profile"
+msgstr "Данные об авторе"
+
+#: author.php:28
+msgid "Posts by "
+msgstr "Статьи автора "
+
+#: author.php:40
+msgid "No posts by this author."
+msgstr "У этого автора нет статей"
+
+#: category.php:11
+#, php-format
+msgid "Category: %s"
+msgstr "Категория: %s"
+
+#: category.php:68
+msgid "Nothing found in this categpory"
+msgstr "В данной категории ничего не найдено"
+
+#: comments.php:4
+msgid ""
+"This post is password protected. Enter the password to view any comments."
+msgstr ""
+"Эта статья защищена паролем. Введите пароль для просмотра комментариев."
+
+#: comments.php:12
+#, php-format
+msgid "One thought on &ldquo;%2$s&rdquo;"
+msgid_plural "%1$s thoughts on &ldquo;%2$s&rdquo;"
+msgstr[0] "Один комментарий к &ldquo;%2$s&rdquo;"
+msgstr[1] "%1$s комментария к &ldquo;%2$s&rdquo;"
+msgstr[2] "%1$s комментариев к &ldquo;%2$s&rdquo;"
+msgstr[3] "%1$s комментарий к &ldquo;%2$s&rdquo;"
+
+#: comments.php:21
+msgid "&larr; Older Comments"
+msgstr "&larr; Предыдущие комментарии"
+
+#: comments.php:22
+msgid "Newer Comments &rarr;"
+msgstr "Следующие комментарии &rarr;"
+
+#: comments.php:37
+msgid "Comments are closed."
+msgstr "Заблокирована возможность оставлять комментарии"
+
+#: footer.php:9
+msgid "Central Wordpress theme, Copyright"
+msgstr "Central тема для Wordpress, Копирайт"
+
+#: footer.php:10
+msgid "Central WordPress theme is licensed under the GPL."
+msgstr "Тема Central для Wordpress разработана соглано лицензии GPL"
+
+#: functions.php:18
+msgid "main menu"
+msgstr "Основное меню"
+
+#: functions.php:43
+#, php-format
+msgid "Page %s"
+msgstr "Станица %s"
+
+#: functions.php:50
+msgid "Choose file.."
+msgstr "Выберите файл.."
+
+#: functions.php:51
+msgid "File selected"
+msgstr "Файл выбран"
+
+#: functions.php:52
+msgid "File is not selected"
+msgstr "Файл не выбран"
+
+#: functions.php:75 functions.php:103
+msgid "Slider"
+msgstr "Слайдер"
+
+#: functions.php:98
+msgid "Settings saved."
+msgstr "Настройки сохранены"
+
+#: functions.php:107
+msgid "Choose category which you want display in slider"
+msgstr "Выберите категорию для отображения в слайдере"
+
+#: functions.php:108
+msgid ""
+"( for displaying a slides you need set a status \"draft\" for posts of "
+"chosen category which you want to see in slider )"
+msgstr ""
+"( для отображения слайдов нужно установить статус \"draft\" для записей из "
+"выбранной категории, которые вы хотите видеть в слайдере )"
+
+#: functions.php:116
+msgid "Save Changes"
+msgstr "Сохранить изменения"
+
+#: functions.php:150
+msgid "Slide "
+msgstr "У слайда "
+
+#: functions.php:150
+msgid ""
+" have not chosen image. </br>You need to add an featured image for this post "
+"from \"Dashboard\" "
+msgstr ""
+" отсутствует изображение. </br>Вам необходимо добавить изображение из"
+"\"Консоли\""
+
+#: functions.php:170
+msgid "sidebar"
+msgstr "Боковая панель"
+
+#: functions.php:171
+msgid "Left column to display the widgets"
+msgstr "Левая колонка, предназначенная для вывода виджетов"
+
+#: functions.php:216
+msgid "Pingback:"
+msgstr "Обратная ссылка:"
+
+#: functions.php:216
+msgid "(Edit)"
+msgstr "(Редактировать)"
+
+#: functions.php:229
+msgid "Post author"
+msgstr "Автор статьи"
+
+#: functions.php:235
+#, php-format
+msgid "%1$s at %2$s"
+msgstr "%1$s в %2$s"
+
+#: functions.php:240
+msgid "Your comment is awaiting moderation."
+msgstr "Ваш комментарий ожидает проверки. "
+
+#: functions.php:245
+msgid "Edit"
+msgstr "Редактировать"
+
+#: functions.php:249
+msgid "Reply"
+msgstr "Ответить"
+
+#: functions.php:263
+msgid "<span class=\"meta-nav\">&larr;</span> Older posts"
+msgstr "<span class=\"meta-nav\">&larr;</span> Предыдущие статьи"
+
+#: functions.php:264
+msgid "Newer posts <span class=\"meta-nav\">&rarr;</span>"
+msgstr "Следующие статьи <span class=\"meta-nav\">&rarr;</span>"
+
+#: gallery-single-template.php:77
+msgid "Sorry, nothing found."
+msgstr "Простите, ничего не найдено"
+
+#: gallery-single-template.php:103
+msgid "Image"
+msgstr "Изображение"
+
+#: gallery-single-template.php:103
+msgid "Download high resolution image"
+msgstr "Скачать изображение с высоким разрешением"
+
+#: header.php:33
+msgid "image for header"
+msgstr "Изображение для заголовка"
+
+#: header.php:33
+msgid "there is no image"
+msgstr "Изображение отсутствует"
+
+#: header.php:52
+msgid ""
+"For a more correct display of information on the site you need to enable "
+"support of the JavaScript in the browser."
+msgstr ""
+"Для более корректного отображения информации на сайте Вам необходимо "
+"включить поддержку JavaScript в браузере. "
+
+#: image.php:9
+msgid "&larr; Previous image"
+msgstr "&larr; Предыдущее изображение"
+
+#: image.php:10
+msgid "Next image &rarr;"
+msgstr "Следующее изображение &rarr;"
+
+#: image.php:17
+msgid "Back to "
+msgstr "Назад к "
+
+#: image.php:21
+msgid "See in full size: "
+msgstr "Полный размер:"
+
+#: image.php:21
+msgid "full size of "
+msgstr "Полный размер: "
+
+#: image.php:21
+msgid "px"
+msgstr "пикселей"
+
+#: index.php:51
+msgid "<< previous posts"
+msgstr "<< предыдущие статьи"
+
+#: index.php:51
+msgid "next posts >>"
+msgstr "следующие статьи >>"
+
+#: page.php:32
+msgid "Edit page"
+msgstr "Редактировать страницу"
+
+#: portfolio-post.php:151 portfolio.php:136
+#, php-format
+msgid "View all posts in %s"
+msgstr "Все статьи в %s"
+
+#: portfolio.php:127
+msgid "Read more"
+msgstr "Читать далее"
+
+#: search.php:10
+#, php-format
+msgid "Search Results for: %s"
+msgstr "Результат поиска для: %s"
+
+#: search.php:34
+#, php-format
+msgid "You were trying to look for: %s"
+msgstr "Вы пытались найти: %s"
+
+#: search.php:38
+msgid ""
+"Sorry, but nothing matched your search criteria. Please try again with some "
+"different keywords."
+msgstr ""
+"Простите, однако согласно критерия Вашего запроса ничего не найдено. "
+"Попробуйте ввести другие ключевые слова."
+
+#: searchform.php:4
+msgid "Enter search keyword"
+msgstr "Введите ключевые слова"
+
+#: sidebar.php:9
+msgid "Recent Posts"
+msgstr "Последние статьи"
+
+#: sidebar.php:19
+msgid "Recent Comments"
+msgstr "Последние комментарии"
+
+#: sidebar.php:25
+msgid " on "
+msgstr " для "
+
+#: sidebar.php:31
+msgid "Archives"
+msgstr "Архивы"
+
+#: sidebar.php:37
+msgid "Categories"
+msgstr "Категории"
+
+#: single.php:20
+msgid "&larr;"
+msgstr "&larr;"
+
+#: single.php:21
+msgid "&rarr;"
+msgstr "&rarr;"
+
+#: tag.php:9
+#, php-format
+msgid "Tag Archives: %s"
+msgstr "Архив за день: %s"
+
+#~ msgid "Powered by "
+#~ msgstr "Сайт разработан компанией "
+
+#~ msgid " team"
+#~ msgstr "командой"
+
+#~ msgid "\" -> \"Set Featured image\""
+#~ msgstr "\" -> \"Установить миниатюру\""
+
+#~ msgid " and "
+#~ msgstr " и "
+
+#~ msgid "Slides"
+#~ msgstr "Слайды"
+
+#~ msgid "Slide"
+#~ msgstr "Слайд"
+
+#~ msgid "Add New Slide"
+#~ msgstr "Добавить новый слайд"
+
+#~ msgid "Edit Slide"
+#~ msgstr "Редактировать слайд"
+
+#~ msgid "New Slider"
+#~ msgstr "Новый слайдер"
+
+#~ msgid "View Slide"
+#~ msgstr "Просмотр слайда"
+
+#~ msgid "Search Slides"
+#~ msgstr "Искать слайды"
+
+#~ msgid "Slide not found"
+#~ msgstr "Слайд не найден"
+
+#~ msgid "Slide not found in trash"
+#~ msgstr "В корзине слайд не найден"
+
+#~ msgid "Nothing found for: %s"
+#~ msgstr "Ничего не найдено для: %s"
+
+#~ msgid "Comment navigation"
+#~ msgstr "Навигация по комментариям"
+
+#~ msgid ""
+#~ "There is no slides yet. </br>You can add slides from \"Dashboard\" -> "
+#~ "\"Slider\" -> \"Add New Slide\"."
+#~ msgstr ""
+#~ "Пока ещё нет слайдов. </br>Вы можете добавить слайды из \"Консоль\" -> "
+#~ "\"Слайдер\" -> \"Добавить новый слайд\""
+
+#~ msgid "Technologies"
+#~ msgstr "Технологии"
+
+#~ msgid "You "
+#~ msgstr "Вы "
+
+#~ msgid "tried going to "
+#~ msgstr "пытались перейти по ссылке "
+
+#~ msgid " All is not lost!"
+#~ msgstr " Но не всё  ещё потеряно!"
+
+#~ msgid "clicked a link to"
+#~ msgstr "нажали на ссылку "
+
+#~ msgid "A user tried to go to "
+#~ msgstr "Пользователь пытался перейти по ссылке "
+
+#~ msgid " and received a 404 (page not found) error. "
+#~ msgstr " и получил 404-ю (страница не найдена) ошибку."
+
+#~ msgid "It wasn't their fault, so try fixing it. They came from "
+#~ msgstr ""
+#~ " Это была не его ошибка, по-этому попытайтесь её исправить. Письмо пришло "
+#~ "с "
+
+#~ msgid "An administrator has been emailed about this problem, too."
+#~ msgstr "Администратор был уведомлен об этой проблеме. "
+
+#~ msgid " and it doesn't exist. "
+#~ msgstr ", однако её не существует."
+
+#~ msgid ", or search for what you're looking for:"
+#~ msgstr ", или поискать то, что Вы ищете через форму поиска:"
+
+#~ msgid "Slide&nbsp"
+#~ msgstr "У слайда&nbsp"

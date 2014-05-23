@@ -1,0 +1,27 @@
+/* CSS Document */
+
+.post-ratings {
+    opacity: 1;
+    width: 100%;
+}
+.post-ratings-loading {
+    display: none;
+    height: 16px;
+    text-align: left;
+}
+.post-ratings-image {
+    border: 0 none;
+}
+.post-ratings IMG, .post-ratings-loading IMG, .post-ratings-image IMG {
+    border: 0 none;
+    margin: 3px 2px 3px 0;
+    padding: 0;
+}
+.post-ratings-text {
+}
+.post-ratings-comment-author {
+    font-style: italic;
+    font-weight: normal;
+}
+
+

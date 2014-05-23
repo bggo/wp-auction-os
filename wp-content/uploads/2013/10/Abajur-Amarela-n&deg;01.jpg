@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+	<html xmlns="http://www.w3.org/1999/xhtml" lang="pt-BR">
+	<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+	<title>Leilão AC &rsaquo; Login</title>
+	<link rel='stylesheet' id='wp-admin-css'  href='http://leilaoac.com.br/wp-admin/css/wp-admin.min.css?ver=3.7.1' type='text/css' media='all' />
+<link rel='stylesheet' id='buttons-css'  href='http://leilaoac.com.br/wp-includes/css/buttons.min.css?ver=3.7.1' type='text/css' media='all' />
+<link rel='stylesheet' id='colors-fresh-css'  href='http://leilaoac.com.br/wp-admin/css/colors-fresh.min.css?ver=3.7.1' type='text/css' media='all' />
+<style type="text/css">
+
+/**
+ * Custom Login by Austin Passy
+ *
+ * Plugin URI	: http://austinpassy.com/wordpress-plugins/custom-login
+ * Version		: 2.1.5
+ * Author URI	: http://austinpassy.com
+ * Extensions	: http://extendd.com/plugins/tag/custom-login-extension/
+ */
+
+html {
+	}
+#login form {
+	
+	-webkit-box-shadow: 5px 5px 10px;
+	-moz-box-shadow: 5px 5px 10px;
+	-ms-box-shadow: 5px 5px 10px;
+	-o-box-shadow: 5px 5px 10px;
+	box-shadow: 5px 5px 10px;
+	}
+#login h1 a {
+	background-image: url('http://leilaoac.com.br/wp-content/uploads/2013/10/logo_ambev_novo_editado.jpg');
+	background-position: center center;
+	background-repeat: no-repeat;
+	}
+
+</style><script type='text/javascript' src='http://leilaoac.com.br/wp-includes/js/jquery/jquery.js?ver=1.10.2'></script>
+<script type='text/javascript' src='http://leilaoac.com.br/wp-includes/js/jquery/jquery-migrate.min.js?ver=1.2.1'></script>
+<script type='text/javascript' src='http://leilaoac.com.br/wp-content/plugins/ultimate-auction/js/wdm-jquery-validate.js?ver=3.7.1'></script>
+<script type='text/javascript' src='http://leilaoac.com.br/wp-content/plugins/ultimate-auction/js/wdm-validate.js?ver=3.7.1'></script>
+<meta name='robots' content='noindex,nofollow' />
+	</head>
+	<body class="login login-action-login wp-core-ui">
+	<div id="login">
+		<h1><a href="http://leilaoac.com.br/" title="Leilão AC - 2013">Leilão AC</a></h1>
+	
+<form name="loginform" id="loginform" action="http://leilaoac.com.br/wp-login.php" method="post">
+	<p>
+		<label for="user_login">Nome de usuário<br />
+		<input type="text" name="log" id="user_login" class="input" value="" size="20" /></label>
+	</p>
+	<p>
+		<label for="user_pass">Senha<br />
+		<input type="password" name="pwd" id="user_pass" class="input" value="" size="20" /></label>
+	</p>
+		<p class="forgetmenot"><label for="rememberme"><input name="rememberme" type="checkbox" id="rememberme" value="forever"  /> Lembrar</label></p>
+	<p class="submit">
+		<input type="submit" name="wp-submit" id="wp-submit" class="button button-primary button-large" value="Login" />
+		<input type="hidden" name="redirect_to" value="/wp-content/uploads/2013/10/Abajur-Amarela-n°01.jpg" />
+		<input type="hidden" name="testcookie" value="1" />
+	</p>
+</form>
+
+<p id="nav">
+	<a href="http://leilaoac.com.br/wp-login.php?action=lostpassword" title="Recuperar senha">Perdeu a senha?</a>
+</p>
+
+<script type="text/javascript">
+function wp_attempt_focus(){
+setTimeout( function(){ try{
+d = document.getElementById('user_login');
+d.focus();
+d.select();
+} catch(e){}
+}, 200);
+}
+
+wp_attempt_focus();
+if(typeof wpOnload=='function')wpOnload();
+</script>
+
+	<p id="backtoblog"><a href="http://leilaoac.com.br/" title="Você está perdido?">&larr; Voltar para Leilão AC</a></p>
+	
+	</div>
+
+	
+	
+	<div class="clear"></div>
+	</body>
+	</html>
+	

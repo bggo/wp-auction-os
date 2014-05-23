@@ -1,0 +1,61 @@
+@font-face {
+    font-family: 'PTSansItalic';
+    src: url('skins/fonts/PTS56F-webfont.eot');
+    src: url('skins/fonts/PTS56F-webfont.eot?#iefix') format('embedded-opentype'),
+         url('skins/fonts/PTS56F-webfont.woff') format('woff'),
+         url('skins/fonts/PTS56F-webfont.ttf') format('truetype'),
+         url('skins/fonts/PTS56F-webfont.svg#PTSansItalic') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'BitstreamVeraSansRoman';
+    src: url('skins/fonts/Vera-webfont.eot');
+    src: url('skins/fonts/Vera-webfont.eot?#iefix') format('embedded-opentype'),
+         url('skins/fonts/Vera-webfont.woff') format('woff'),
+         url('skins/fonts/Vera-webfont.ttf') format('truetype'),
+         url('skins/fonts/Vera-webfont.svg#BitstreamVeraSansRoman') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+body#tinymce.wp-editor { 
+	color:#000; 
+	line-height:16px; 
+	font:14px/16px 'BitstreamVeraSansRoman', Verdana, Geneva, sans-serif; 
+	word-wrap:break-word;
+	background:#F1F1F1;
+}
+
+body#tinymce.wp-editor a {
+    color: #000;
+}
+
+
+body#tinymce.wp-editor h1, 
+body#tinymce.wp-editor h2, 
+body#tinymce.wp-editor h3, 
+body#tinymce.wp-editor h4, 
+body#tinymce.wp-editor h5, 
+body#tinymce.wp-editor h6{ 
+	font-family:'PTSansItalic', Georgia, "Times New Roman", Times, serif; 
+	font-weight:normal; 
+    color: #000;	
+}
+
+body#tinymce.wp-editor h1 a, 
+body#tinymce.wp-editor h2 a, 
+body#tinymce.wp-editor h3 a, 
+body#tinymce.wp-editor h4 a, 
+body#tinymce.wp-editor h5 a, 
+body#tinymce.wp-editor h6 a{ 
+    color: #000;	
+}
+
+body#tinymce.wp-editor h1{font-size:30px;line-height:30px;} 
+body#tinymce.wp-editor h2{font-size:24px;line-height:24px;} 
+body#tinymce.wp-editor h3{font-size:20px;line-height:20px;} 
+body#tinymce.wp-editor h4{font-size:18px;line-height:18px;} 
+body#tinymce.wp-editor h5{font-size:14px;line-height:14px;} 
+body#tinymce.wp-editor h6{font-size:12px;line-height:12px;}

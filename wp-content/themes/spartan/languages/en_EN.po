@@ -1,0 +1,1003 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Spartan\n"
+"POT-Creation-Date: 2013-01-04 20:00+0530\n"
+"PO-Revision-Date: 2013-01-04 20:01+0530\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.5.4\n"
+"X-Poedit-KeywordsList: _e;__\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: archive.php:28 post-standard.php:12 single.php:36
+msgid "Posted by :"
+msgstr ""
+
+#: archive.php:28 post-standard.php:12 single.php:36
+msgid "On :"
+msgstr ""
+
+#: archive.php:34 post-standard.php:18 single.php:42
+msgid "Category:"
+msgstr ""
+
+#: archive.php:37 post-standard.php:21 single.php:45
+msgid "Tags:"
+msgstr ""
+
+#: archive.php:45 page-fullwidth.php:32 page.php:27 post-quote.php:8
+#: post-standard.php:29 single.php:108
+msgid "<span>Continue Reading >></span>"
+msgstr ""
+
+#: archive.php:47 page-fullwidth.php:34 page.php:29 post-standard.php:31
+#: single.php:110
+msgid "Pages:"
+msgstr ""
+
+#: archive.php:58 index-mageight.php:53 index-magseven.php:149
+#: index-standard.php:45
+msgid "Previous"
+msgstr ""
+
+#: archive.php:59 index-mageight.php:54 index-magseven.php:150
+#: index-standard.php:46
+msgid "Next"
+msgstr ""
+
+#: archive.php:72 index-mageight.php:67 index-magseven.php:163
+#: index-standard.php:59
+msgid "Sorry, but you are looking for something that isn't here."
+msgstr ""
+
+#: comments.php:5
+msgid "This post is password protected. Enter the password to view comments."
+msgstr ""
+
+#: comments.php:15
+msgid "Comments are closed."
+msgstr ""
+
+#: comments.php:20
+msgid "Comments"
+msgstr ""
+
+#: comments.php:20
+msgid "Comment"
+msgstr ""
+
+#: comments.php:40
+msgid "Name"
+msgstr ""
+
+#: comments.php:40 comments.php:42
+msgid "(required)"
+msgstr ""
+
+#: comments.php:42
+msgid "E-mail"
+msgstr ""
+
+#: comments.php:44
+msgid "Website"
+msgstr ""
+
+#: footer.php:15
+msgid "&copy; All rights reserved."
+msgstr ""
+
+#: footer.php:16
+msgid "Designed by "
+msgstr ""
+
+#: footer.php:16
+msgid "ThemeAlley.Com"
+msgstr ""
+
+#: functions.php:11
+msgid "Main Navigation"
+msgstr ""
+
+#: functions.php:236
+#, php-format
+msgid "%1$s at %2$s"
+msgstr ""
+
+#: functions.php:236
+msgid "(Edit)"
+msgstr ""
+
+#: functions.php:238
+msgid "Your comment is awaiting moderation."
+msgstr ""
+
+#: functions.php:375
+msgid "Default"
+msgstr ""
+
+#: functions.php:421
+msgid "Category: "
+msgstr ""
+
+#: functions.php:423
+msgid "Tag Archive for &quot;"
+msgstr ""
+
+#: functions.php:425
+msgid " Archive - "
+msgstr ""
+
+#: functions.php:429
+msgid "Search for &quot;"
+msgstr ""
+
+#: functions.php:433
+msgid "Not Found - "
+msgstr ""
+
+#: options.php:70 options.php:73
+msgid "Select a Skin"
+msgstr ""
+
+#: options.php:74
+msgid "Images for skins."
+msgstr ""
+
+#: options.php:93
+msgid "Logo Settings"
+msgstr ""
+
+#: options.php:96 options.php:1184
+msgid "Upload Logo"
+msgstr ""
+
+#: options.php:97
+msgid ""
+"Upload your logo here. max width 450px, It will replace the blog title and "
+"description."
+msgstr ""
+
+#: options.php:101
+msgid "Upload FavIcon"
+msgstr ""
+
+#: options.php:102
+msgid "Upload your favicon here."
+msgstr ""
+
+#: options.php:110
+msgid "Color Settings"
+msgstr ""
+
+#: options.php:113
+msgid "Color for Post titles."
+msgstr ""
+
+#: options.php:114
+msgid "Choose a color for your post titles."
+msgstr ""
+
+#: options.php:121
+msgid "Adsense Settings"
+msgstr ""
+
+#: options.php:124
+msgid "Google Adsense ID"
+msgstr ""
+
+#: options.php:125
+msgid "Enter your full adsense id. Ex : pub-1234567890"
+msgstr ""
+
+#: options.php:132
+msgid "Single Page Settings"
+msgstr ""
+
+#: options.php:135
+msgid "Show Featured Image?"
+msgstr ""
+
+#: options.php:136
+msgid "Select yes if you want to show featured image as header."
+msgstr ""
+
+#: options.php:143
+msgid "Show Author Bio"
+msgstr ""
+
+#: options.php:144
+msgid "Select yes if you want to show Author Bio Box on single post page."
+msgstr ""
+
+#: options.php:151
+msgid "Show RSS Box"
+msgstr ""
+
+#: options.php:152
+msgid "Select yes if you want to show RSS box on single post page."
+msgstr ""
+
+#: options.php:158
+msgid "Show Social Box"
+msgstr ""
+
+#: options.php:159
+msgid "Select yes if you want to show social box on single post page."
+msgstr ""
+
+#: options.php:165
+msgid "Show Next/Previous Box"
+msgstr ""
+
+#: options.php:166 options.php:174
+msgid "Select yes if you want to show Next/Previous box on single post page."
+msgstr ""
+
+#: options.php:173
+msgid "Show Related Posts Box"
+msgstr ""
+
+#: options.php:190 options.php:1021 admin/options-framework.php:248
+msgid "Social Settings"
+msgstr ""
+
+#: options.php:193
+msgid "Twitter"
+msgstr ""
+
+#: options.php:194
+msgid "Enter your twitter id"
+msgstr ""
+
+#: options.php:199
+msgid "Redditt"
+msgstr ""
+
+#: options.php:200
+msgid "Enter your reddit url"
+msgstr ""
+
+#: options.php:205
+msgid "Delicious"
+msgstr ""
+
+#: options.php:206
+msgid "Enter your delicious url"
+msgstr ""
+
+#: options.php:211
+msgid "Technorati"
+msgstr ""
+
+#: options.php:212
+msgid "Enter your technorati url"
+msgstr ""
+
+#: options.php:217
+msgid "Facebook"
+msgstr ""
+
+#: options.php:218
+msgid "Enter your facebook url"
+msgstr ""
+
+#: options.php:223
+msgid "Stumble"
+msgstr ""
+
+#: options.php:224
+msgid "Enter your stumbleupon url"
+msgstr ""
+
+#: options.php:229
+msgid "Youtube"
+msgstr ""
+
+#: options.php:230
+msgid "Enter your youtube url"
+msgstr ""
+
+#: options.php:235
+msgid "Flickr"
+msgstr ""
+
+#: options.php:236
+msgid "Enter your flickr url"
+msgstr ""
+
+#: options.php:241
+msgid "LinkedIn"
+msgstr ""
+
+#: options.php:242
+msgid "Enter your linkedin url"
+msgstr ""
+
+#: options.php:247
+msgid "Google"
+msgstr ""
+
+#: options.php:248
+msgid "Enter your google url"
+msgstr ""
+
+#: options.php:262
+msgid "Custom Header"
+msgstr ""
+
+#: options.php:266
+msgid "Show custom Header?"
+msgstr ""
+
+#: options.php:267
+msgid "Selecting yes will show custom header instead of slider"
+msgstr ""
+
+#: options.php:277
+msgid "Slider Settings"
+msgstr ""
+
+#: options.php:280 options.php:631
+msgid "Select Category"
+msgstr ""
+
+#: options.php:281
+msgid "Posts from this category will be shown in the slider."
+msgstr ""
+
+#: options.php:287
+msgid "Show slider on homepage"
+msgstr ""
+
+#: options.php:288
+msgid "Select yes if you want to show slider on homepage."
+msgstr ""
+
+#: options.php:295
+msgid "Show slider on Single post page"
+msgstr ""
+
+#: options.php:296
+msgid "Select yes if you want to show slider on Single post page."
+msgstr ""
+
+#: options.php:303
+msgid "Show slider on Pages"
+msgstr ""
+
+#: options.php:304
+msgid "Select yes if you want to show slider on Pages."
+msgstr ""
+
+#: options.php:311
+msgid "Show slider on Category Pages"
+msgstr ""
+
+#: options.php:312
+msgid "Select yes if you want to show slider on Category Pages."
+msgstr ""
+
+#: options.php:319
+msgid "Auto Start?"
+msgstr ""
+
+#: options.php:320
+msgid ""
+"Select yes if you want the slider to start scrolling automaticaly on page "
+"load. Only applies to Accordian and Botique sliders."
+msgstr ""
+
+#: options.php:326
+msgid "How many slides?"
+msgstr ""
+
+#: options.php:327
+msgid "Enter a number. Ex: 5 or 7"
+msgstr ""
+
+#: options.php:333
+msgid "Pause Duration"
+msgstr ""
+
+#: options.php:334
+msgid "Time between slide changes. 1000 is 1 Second"
+msgstr ""
+
+#: options.php:340
+msgid "Select a Slider"
+msgstr ""
+
+#: options.php:341
+msgid "Type of slider to use"
+msgstr ""
+
+#: options.php:369
+msgid "Layout Settings"
+msgstr ""
+
+#: options.php:372
+msgid "Select a homepage layout"
+msgstr ""
+
+#: options.php:373 options.php:548 options.php:578 options.php:608
+#: options.php:645 options.php:1070
+msgid "Images for layout."
+msgstr ""
+
+#: options.php:399 admin/options-framework.php:251
+msgid "MagPro Settings"
+msgstr ""
+
+#: options.php:404
+msgid "Recent Posts"
+msgstr ""
+
+#: options.php:408
+msgid "How Many Recent Posts?"
+msgstr ""
+
+#: options.php:409
+msgid "Enter a number like 7 or 10"
+msgstr ""
+
+#: options.php:416 options.php:1034
+msgid "Video Settings"
+msgstr ""
+
+#: options.php:419
+msgid "Show Videos"
+msgstr ""
+
+#: options.php:420
+msgid "Select yes if you want to show videos."
+msgstr ""
+
+#: options.php:426 options.php:1044
+msgid "Select a Category"
+msgstr ""
+
+#: options.php:427 options.php:1045
+msgid ""
+"For posts in this category, You need to create a custom field called video "
+"and enter the url to video in its value field"
+msgstr ""
+
+#: options.php:433 options.php:1051
+msgid "How many Videos"
+msgstr ""
+
+#: options.php:434 options.php:1052
+msgid "How many Videos would you like to show."
+msgstr ""
+
+#: options.php:441 options.php:1059
+msgid "Top Rated/Most Popular"
+msgstr ""
+
+#: options.php:444
+msgid "Show Top Rated/Most popular box ?"
+msgstr ""
+
+#: options.php:445 options.php:464 options.php:489 options.php:662
+#: options.php:1063 options.php:1091
+msgid "Select yes or no"
+msgstr ""
+
+#: options.php:452
+msgid "How many Posts"
+msgstr ""
+
+#: options.php:453 options.php:1080
+msgid "How many posts would you like to show."
+msgstr ""
+
+#: options.php:460 admin/options-medialibrary-uploader.php:288
+msgid "Gallery"
+msgstr ""
+
+#: options.php:463
+msgid "Show Gallery?"
+msgstr ""
+
+#: options.php:470
+msgid "Which Gallery?"
+msgstr ""
+
+#: options.php:471
+msgid "Enter the gallery ID"
+msgstr ""
+
+#: options.php:477
+msgid "How many Images?"
+msgstr ""
+
+#: options.php:478
+msgid "Enter the number of images you would like to show"
+msgstr ""
+
+#: options.php:485 options.php:658
+msgid "Category Boxes"
+msgstr ""
+
+#: options.php:488 options.php:661
+msgid "Show Category Boxes"
+msgstr ""
+
+#: options.php:495
+msgid "Which Layout"
+msgstr ""
+
+#: options.php:496
+msgid "Select horizontal or vertical"
+msgstr ""
+
+#: options.php:503 options.php:668
+msgid "Which Categories?"
+msgstr ""
+
+#: options.php:504 options.php:669 options.php:877 options.php:934
+msgid "Enter the category ID's seperated by comma. Ex : 1, 7, 20"
+msgstr ""
+
+#: options.php:509 options.php:674
+msgid "How many posts per box?"
+msgstr ""
+
+#: options.php:510 options.php:542 options.php:572 options.php:602
+#: options.php:639 options.php:675
+msgid "Enter a number. Ex : 1, 7, 20"
+msgstr ""
+
+#: options.php:525
+msgid "Video Mag Settings"
+msgstr ""
+
+#: options.php:531
+msgid "Recent Tab Settings"
+msgstr ""
+
+#: options.php:534
+msgid "Show Recent Videos Tab?"
+msgstr ""
+
+#: options.php:535
+msgid "Select yes if you want to show Recent Videos tab in the homepage"
+msgstr ""
+
+#: options.php:541 options.php:571 options.php:601 options.php:638
+msgid "How many posts?"
+msgstr ""
+
+#: options.php:547 options.php:577 options.php:607 options.php:644
+#: options.php:1069
+msgid "Select the Layout Type"
+msgstr ""
+
+#: options.php:561
+msgid "Top Rated Settings"
+msgstr ""
+
+#: options.php:564 options.php:594
+msgid "Show Top Rated Videos Tab?"
+msgstr ""
+
+#: options.php:565 options.php:595
+msgid "Select yes if you want to show Top Rated Videos tab in the homepage"
+msgstr ""
+
+#: options.php:591
+msgid "Most Popular Settings"
+msgstr ""
+
+#: options.php:621
+msgid "Favourite Tab Settings"
+msgstr ""
+
+#: options.php:624
+msgid "Show Favourite Videos Tab?"
+msgstr ""
+
+#: options.php:625
+msgid "Select yes if you want to show Favourite Videos tab in the homepage"
+msgstr ""
+
+#: options.php:632
+msgid "Posts from this category will be shown in the Favourites tab."
+msgstr ""
+
+#: options.php:689 admin/options-framework.php:253
+msgid "Mag Settings"
+msgstr ""
+
+#: options.php:692 options.php:717 options.php:742 options.php:767
+#: options.php:792 options.php:817 options.php:846 options.php:868
+#: options.php:903 options.php:925 options.php:956
+msgid "Show Ratings?"
+msgstr ""
+
+#: options.php:693 options.php:718 options.php:743 options.php:768
+#: options.php:793 options.php:818 options.php:847 options.php:869
+#: options.php:904 options.php:926 options.php:957
+msgid "Select yes if you want to show ratings"
+msgstr ""
+
+#: options.php:699 options.php:724 options.php:749 options.php:774
+#: options.php:799 options.php:824 options.php:854 options.php:911
+msgid "Show Thumbnail?"
+msgstr ""
+
+#: options.php:700 options.php:725 options.php:750 options.php:775
+#: options.php:800 options.php:825 options.php:855 options.php:912
+msgid "Select yes if you want to show thumbnail in the post"
+msgstr ""
+
+#: options.php:714 admin/options-framework.php:254
+msgid "MagLite Settings"
+msgstr ""
+
+#: options.php:739 admin/options-framework.php:255
+msgid "MagThree Settings"
+msgstr ""
+
+#: options.php:764 admin/options-framework.php:256
+msgid "MagFour Settings"
+msgstr ""
+
+#: options.php:789 admin/options-framework.php:257
+msgid "MagFive Settings"
+msgstr ""
+
+#: options.php:814 admin/options-framework.php:258
+msgid "MagSix Settings"
+msgstr ""
+
+#: options.php:839 admin/options-framework.php:259
+msgid "MagSeven Settings"
+msgstr ""
+
+#: options.php:843 options.php:900
+msgid "Recent Posts Settings"
+msgstr ""
+
+#: options.php:865 options.php:922
+msgid "Category Box Settings"
+msgstr ""
+
+#: options.php:876 options.php:933
+msgid "Which categories in left sidebar?"
+msgstr ""
+
+#: options.php:882 options.php:939
+msgid "How many Posts per Category?"
+msgstr ""
+
+#: options.php:883 options.php:940
+msgid "Enter the number of posts per category you would like to show"
+msgstr ""
+
+#: options.php:896 admin/options-framework.php:260
+msgid "MagEight Settings"
+msgstr ""
+
+#: options.php:953 admin/options-framework.php:261
+msgid "Standard Blog Settings"
+msgstr ""
+
+#: options.php:964
+msgid "Show Categories/Tags?"
+msgstr ""
+
+#: options.php:965
+msgid "Select yes if you want to show categories and tags in posts"
+msgstr ""
+
+#: options.php:980
+msgid "Sidebar Settings"
+msgstr ""
+
+#: options.php:984
+msgid "Sidebar Ad Settings"
+msgstr ""
+
+#: options.php:987
+msgid "Show 300x250 ads in sidebar?"
+msgstr ""
+
+#: options.php:988
+msgid ""
+"Select yes if you want to show 300x250 ads in sidebar. If you select yes, go "
+"to widgets page and drag/drop the ads"
+msgstr ""
+
+#: options.php:994
+msgid "Show 125x125 ads in sidebar?"
+msgstr ""
+
+#: options.php:995
+msgid ""
+"Select yes if you want to show 125x125 ads in sidebar. If you select yes, go "
+"to widgets page and drag/drop the ads"
+msgstr ""
+
+#: options.php:1003
+msgid "Feedburner Settings"
+msgstr ""
+
+#: options.php:1006
+msgid "Show feedburner?"
+msgstr ""
+
+#: options.php:1007 options.php:1026
+msgid "Select yes if you want to show feedburner in sidebar."
+msgstr ""
+
+#: options.php:1013
+msgid "Feedburner Id"
+msgstr ""
+
+#: options.php:1014
+msgid "Enter your feedburner id"
+msgstr ""
+
+#: options.php:1025
+msgid "Show Twitter Updates?"
+msgstr ""
+
+#: options.php:1037
+msgid "Show Videos in sidebar?"
+msgstr ""
+
+#: options.php:1038
+msgid "Select yes if you want to show videos in sidebar."
+msgstr ""
+
+#: options.php:1062
+msgid "Show Top Rated/Most popular box in sidebar?"
+msgstr ""
+
+#: options.php:1079
+msgid "How many posts"
+msgstr ""
+
+#: options.php:1087
+msgid "Polls"
+msgstr ""
+
+#: options.php:1090
+msgid "Show Polls?"
+msgstr ""
+
+#: options.php:1098
+msgid "Which Poll?"
+msgstr ""
+
+#: options.php:1099
+msgid "Enter the poll ID"
+msgstr ""
+
+#: options.php:1111
+msgid "AD Settings"
+msgstr ""
+
+#: options.php:1114
+msgid "Header Ad Settings"
+msgstr ""
+
+#: options.php:1118
+msgid "Show Adsense?"
+msgstr ""
+
+#: options.php:1119
+msgid "If yes, adsense will be show else enter html adcode below"
+msgstr ""
+
+#: options.php:1125
+msgid "Header Ad code"
+msgstr ""
+
+#: options.php:1126
+msgid "Enter the html ad code"
+msgstr ""
+
+#: options.php:1138
+msgid "Footer Settings"
+msgstr ""
+
+#: options.php:1141
+msgid "Footer Widgets"
+msgstr ""
+
+#: options.php:1144
+msgid "Show footer widgets on homepage?"
+msgstr ""
+
+#: options.php:1145
+msgid "Select yes if you want to show footer widgets on homepage."
+msgstr ""
+
+#: options.php:1151
+msgid "Show footer widgets on single post pages?"
+msgstr ""
+
+#: options.php:1152
+msgid "Select yes if you want to show footer widgets on single post pages."
+msgstr ""
+
+#: options.php:1158
+msgid "Show footer widgets on pages?"
+msgstr ""
+
+#: options.php:1159
+msgid "Select yes if you want to show footer widgets on pages."
+msgstr ""
+
+#: options.php:1165
+msgid "Show footer widgets on category pages?"
+msgstr ""
+
+#: options.php:1166
+msgid "Select yes if you want to show footer widgets on category pages."
+msgstr ""
+
+#: options.php:1174
+msgid "Footer Logo"
+msgstr ""
+
+#: options.php:1177
+msgid "Show footer logo?"
+msgstr ""
+
+#: options.php:1178
+msgid "Select yes if you want to show logo in footer."
+msgstr ""
+
+#: options.php:1185
+msgid "Upload your logo here. Max width 250px"
+msgstr ""
+
+#: options.php:1192
+msgid "Search Box"
+msgstr ""
+
+#: options.php:1195
+msgid "Show search box in footer?"
+msgstr ""
+
+#: options.php:1196
+msgid "Select yes if you want to show search box in footer."
+msgstr ""
+
+#: searchform.php:1
+msgid "Enter search query here..."
+msgstr ""
+
+#: searchform.php:1
+msgid "Go"
+msgstr ""
+
+#: sidebar.php:16
+msgid "Be A Fan On Facebook"
+msgstr ""
+
+#: sidebar.php:25 single.php:180
+msgid "Follow On Twitter"
+msgstr ""
+
+#: sidebar.php:103
+msgid "Categories"
+msgstr ""
+
+#: sidebar.php:114
+msgid "Archives"
+msgstr ""
+
+#: sidebar.php:125
+msgid "Blogrolls"
+msgstr ""
+
+#: single.php:115
+msgid "Previous Image"
+msgstr ""
+
+#: single.php:123
+msgid "Next Image"
+msgstr ""
+
+#: single.php:164
+msgid "Visit Author's Website"
+msgstr ""
+
+#: single.php:198
+msgid "Like On Facebook"
+msgstr ""
+
+#: single.php:213
+msgid "Subscribe To RSS"
+msgstr ""
+
+#: single.php:235
+msgid "Like This Post? Share It"
+msgstr ""
+
+#: single.php:252
+msgid "Previous Post"
+msgstr ""
+
+#: single.php:262
+msgid "Next Post"
+msgstr ""
+
+#: slider-wilto.php:42
+msgid "Read More"
+msgstr ""
+
+#: admin/options-framework.php:247
+msgid "General"
+msgstr ""
+
+#: admin/options-framework.php:247 admin/options-framework.php:249
+#: admin/options-framework.php:250 admin/options-framework.php:262
+#: admin/options-framework.php:263 admin/options-framework.php:264
+msgid "Settings"
+msgstr ""
+
+#: admin/options-framework.php:249
+msgid "Slider"
+msgstr ""
+
+#: admin/options-framework.php:250
+msgid "Layout"
+msgstr ""
+
+#: admin/options-framework.php:252
+msgid "VideoMag Settings"
+msgstr ""
+
+#: admin/options-framework.php:262
+msgid "Sidebar"
+msgstr ""
+
+#: admin/options-framework.php:263
+msgid "AD"
+msgstr ""
+
+#: admin/options-framework.php:264
+msgid "Footer"
+msgstr ""
+
+#: admin/options-framework.php:285
+msgid "Click OK to reset. Any theme settings will be lost!"
+msgstr ""
+
+#: admin/options-framework.php:321
+msgid "Default options restored."
+msgstr ""
+
+#: admin/options-framework.php:362
+msgid "Options saved."
+msgstr ""
+
+#: admin/options-framework.php:420
+msgid "Theme Options"
+msgstr ""
+
+#: admin/options-medialibrary-uploader.php:26
+msgid "Options Framework Internal Container"
+msgstr ""
+
+#: admin/options-medialibrary-uploader.php:128
+msgid "Upload"
+msgstr ""
+
+#: admin/options-medialibrary-uploader.php:151
+msgid "View File"
+msgstr ""
+
+#: admin/options-medialibrary-uploader.php:288
+msgid "Previously Uploaded"
+msgstr ""
